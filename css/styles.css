@@ -86,7 +86,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .card{
     background-color: var(--white);
@@ -251,7 +251,7 @@ body{
 @media(max-width:440px){
     .cordonee{
         width: 95%;
-        margin: 0px auto;
+/*         margin: 0px auto; */
     }
     .close {
         left: 88%;
